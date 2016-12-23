@@ -27,9 +27,9 @@ comments, etc.  At least for Java, you never, ever, have to implement this again
 
 Documentation
 ----
-[Wikipedia] - formal math definition of the algorithm
-[ProjectEuler24] - Project Euler challenge 24 on Lexicographic permutations
-[StackOverflow] - Best explanation with real code
+ * [Wikipedia] - formal math definition of the algorithm
+ * [ProjectEuler24] - Project Euler challenge 24 on Lexicographic permutations
+ * [StackOverflow] - Best explanation with real code
 
 
 [StackOverflow]:http://stackoverflow.com/questions/7918806/finding-n-th-permutation-without-computing-others
