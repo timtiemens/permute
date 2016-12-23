@@ -2,18 +2,17 @@ PermuteUtil in Java
 ===================
 Java implementation of Lexicographic permutations given the permutation number.
 
-Given a list size N, and a permutation number at most N!, generate a shuffled list
+Given a list size N, and a permutation number from 1 to at most N!, generate a shuffled list
 whose order is the lexicographic permutation corresponding to the permutation number.
 
 
 Written because there are so many bad, wrong, confusing implementations.
-Most of the wrong implementations simply implement factorial(int n), without making note that even
-64-bit values start failing at 21!.
+Most of the wrong implementations simply implement factorial(int n), without making note that 64-bit values start failing at 21!.
 
 This implementation:
  * is in the public domain
- * can handle Lists of size 30,000 in 0.6 seconds [because of a caching implementation of factorial]
- * with 4GB Heap, can handle lists of size 60,000 in 4.1 seconds
+ * can handle lists with 30,000 elements in 0.6 seconds [because of a caching implementation of factorial]
+ * with 4GB Heap, can handle lists with 60,000 elements in 4.1 seconds
  * is implemented with generics for the List
  * has extensive unit-test coverage, including a "mini" implementation that allows cross-checking at small sizes
  
