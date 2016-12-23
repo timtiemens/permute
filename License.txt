@@ -1,0 +1,14 @@
+ Public Domain.
+ To the extent possible under law, Tim Tiemens has waived all copyright and related or neighboring rights to PermuteUtil.java.
+ This work is published from: United States.
+ 
+ 
+  The spirit of this license is:
+   * You can copy PermuteUtil.java
+   * You can change PermuteUtil.java, including all of:
+     * Removing any copyright notices
+     * Rename the package
+     * Rename variables, methods, etc.
+   * You can commit PermuteUtil.java into your repository as if it is your own
+   
+ 
